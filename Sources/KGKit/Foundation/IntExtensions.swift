@@ -78,7 +78,7 @@ public extension Int {
         var digits = [Int]()
         var number = abs
 
-        while number != 0 {
+      while number != 0 {
             let xNumber = number % 10
             digits.append(xNumber)
             number /= 10
