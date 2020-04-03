@@ -69,9 +69,9 @@ public extension Int {
       } else if abs >= 1000 && abs < 1000000 {
          return String(format: "\(sign)%ik", abs / 1000)
       }else if abs >= 1000000 && abs < 1000000000{
-         return String(format: "\(sign)%iM", abs / 100000)
+         return String(format: "\(sign)%iM", abs / 1000000)
       }
-      return String(format: "\(sign)%iB", abs / 1000000)
+      return String(format: "\(sign)%iB", abs / 1000000000)
    }
    
    /// SwifterSwift: Array of digits of integer value.
