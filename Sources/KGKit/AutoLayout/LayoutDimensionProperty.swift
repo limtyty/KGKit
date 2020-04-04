@@ -5,7 +5,7 @@
 //  Created by Dariel on 2019/1/31.
 //  Copyright © 2019 Dariel. All rights reserved.
 //
-
+#if canImport(UIKit)
 import UIKit
 
 public protocol LayoutDimension {
@@ -62,3 +62,4 @@ extension LayoutDimensionProperty {
         constraint?.isActive = true
     }
 }
+#endif

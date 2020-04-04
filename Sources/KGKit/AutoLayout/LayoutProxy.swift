@@ -5,7 +5,7 @@
 //  Created by Dariel on 2019/1/31.
 //  Copyright © 2019 Dariel. All rights reserved.
 //
-
+#if canImport(UIKit)
 import UIKit
 
 public typealias CallbackConstraintClosure = (NSLayoutConstraint) -> Void
@@ -64,3 +64,4 @@ public class LayoutProxy: NSObject, NSCopying {
         constraintsClosure(constraintArr)
     }
 }
+#endif

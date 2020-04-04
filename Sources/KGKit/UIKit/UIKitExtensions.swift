@@ -5,7 +5,6 @@
 //  Created by Lim TyTy on 3/23/20.
 //  Copyright © 2020 Lim TyTy. All rights reserved.
 //
-#if canImport(UIKit)
 import UIKit
 
 // MARK: UICOLOR
@@ -248,4 +247,3 @@ public extension UITableView {
    
 }
 
-#endif

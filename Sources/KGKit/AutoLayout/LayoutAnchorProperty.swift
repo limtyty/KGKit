@@ -5,7 +5,7 @@
 //  Created by Dariel on 2019/1/31.
 //  Copyright © 2019 Dariel. All rights reserved.
 //
-
+#if canImport(UIKit)
 import UIKit
 
 public protocol LayoutAnchor {
@@ -39,3 +39,4 @@ extension LayoutAnchorProperty {
         constraint?.isActive = true
     }
 }
+#endif

@@ -5,6 +5,7 @@
 //  Created by Dariel on 2019/1/31.
 //  Copyright © 2019 Dariel. All rights reserved.
 //
+#if canImport(UIKit)
 
 import UIKit
 
@@ -138,3 +139,5 @@ public func ==<B: LayoutDimension>(lhs: (LayoutDimensionProperty<B>, LayoutDimen
     lhs.0.equal(to: rhs.0)
     lhs.1.equal(to: rhs.1)
 }
+
+#endif

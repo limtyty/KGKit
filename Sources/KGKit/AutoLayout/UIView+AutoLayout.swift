@@ -5,7 +5,7 @@
 //  Created by Dariel on 2019/1/31.
 //  Copyright © 2019 Dariel. All rights reserved.
 //
-
+#if canImport(UIKit)
 import UIKit
 
 public typealias Margin = ((NSLayoutYAxisAnchor, CGFloat), (NSLayoutYAxisAnchor, CGFloat), (NSLayoutXAxisAnchor, CGFloat), (NSLayoutXAxisAnchor, CGFloat))
@@ -128,3 +128,4 @@ extension UIView {
     }
 }
 
+#endif
